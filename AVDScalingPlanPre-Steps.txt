@@ -1,0 +1,25 @@
+AVD Scaling Plan Pre-Steps:
+
+
+1. go to your desired subscription and open Access Control(IAM)
+2. Click on Add (+ sign) and click and custom role
+3. Custome role Name: AVD Scaling Plan  , then select Start from JSON
+4. Select JSON file attached here
+5. click next (2 times to go to assignable scope)
+6. delete existing scope and add new by cliking on Add assignable scopes
+7. select subscription from dropdown and on right side choose your desired subscription and click select
+8. then simply click review and create , create
+
+---------------------------------------
+
+9. on the same page of your desired subscription and open Access Control(IAM) click on Add (+ sign) 
+10. Select Add role Assignment
+11. search for AVD Scaling Plan  (we just created in last steps)
+12.click next 
+13. on members tab click select members and search for azure virtual desktop and select it.
+14.  click review and assign
+
+
+And done now you are reday to create scaling plan for your Azure virtual desktop.
+
+Note: this is 1 time process, this will remain as it is till you delete your custom role created.
